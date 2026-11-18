@@ -1,25 +1,34 @@
 ### Proyek Tugas Besar Pemrograman Berorientasi Objek (PBO)
 # TemuTeduh – Shelter Management System
 
-> **Aplikasi Web Manajemen Data Hewan Shelter Berbasis Model-View-Controller (MVC) & Pemrograman Berorientasi Objek (OOP) PHP Native**
+TemuTeduh adalah aplikasi web sederhana untuk mengelola pendataan hewan di shelter atau rumah penampungan satwa. Aplikasi ini dibangun menggunakan PHP murni (tanpa framework) dengan menerapkan arsitektur MVC (Model-View-Controller) dan konsep Pemrograman Berorientasi Objek (PBO).
 
----
 
-### Proyek Tugas Besar Pemrograman Berorientasi Objek (PBO)
+Aplikasi ini mencakup beberapa fungsi utama:
 
-**Program Studi Sistem Informasi — Fakultas Teknik — Universitas Bengkulu**  
-**Tahun Akademik 2024/2025**
-- **Tema 10:** Sistem Manajemen Data Hewan Shelter
+1. **Dashboard & Ringkasan Data**
+   - Memantau total hewan yang sedang dirawat, jumlah shelter aktif, dan jenis vaksin yang tersedia secara langsung dari database.
+   - Menampilkan tabel data hewan lengkap dengan lokasi shelter dan daftar vaksin yang sudah diterima.
 
----
+2. **Pencarian, Filter, & Urutan Data**
+   - Mencari data hewan berdasarkan nama.
+   - Menyaring (filter) daftar hewan berdasarkan lokasi shelter tertentu.
+   - Mengurutkan tabel berdasarkan nama hewan (A-Z / Z-A) atau umur (termuda / tertua).
 
-## 1. Deskripsi Aplikasi
+3. **Kelola Data Hewan (CRUD)**
+   - Menambahkan hewan baru: memilih lokasi shelter lewat dropdown dan mencentang satu atau lebih jenis vaksin yang sudah diterima (relasi banyak-ke-banyak).
+   - Mengedit identitas hewan, lokasi penempatan, serta memperbarui riwayat vaksinnya.
+   - Menghapus data hewan yang sudah keluar atau diadopsi.
 
-**TemuTeduh** adalah aplikasi web sistem manajemen data hewan shelter yang dibangun untuk membantu pengelola dan relawan penampungan hewan dalam mengelola pendataan satwa, lokasi penampungan (shelter), serta riwayat jenis vaksinasi medis secara terstruktur, aman, dan efisien.
+4. **Kelola Data Shelter**
+   - Menambahkan lokasi shelter baru dan mengubah namanya.
+   - Melihat jumlah hewan yang sedang ditampung di setiap shelter secara otomatis.
+   - Menghapus shelter (dilengkapi proteksi keamanan: shelter yang masih menampung hewan tidak bisa dihapus sembarangan).
 
-## Aplikasi dirancang dengan memadukan arsitektur **Model-View-Controller (MVC)** dan prinsip **Object-Oriented Programming (OOP)** murni (PHP Native tanpa framework). Desain antarmuka (UI/UX) mengusung tema _Editorial-Modern Naturalist_ (palet hijau hutan, soft mint, aksen amber hangat) yang responsif, interaktif, dan bebas dari tampilan generik
-
-## 2. Fitur Utama Sistem
+5. **Kelola Katalog Vaksin**
+   - Menambahkan jenis vaksin medis satwa ke dalam sistem (misal: Rabies, Distemper, Parvovirus).
+   - Melihat berapa ekor hewan yang sudah menerima vaksin tersebut.
+   - Mengubah nama vaksin atau menghapus jenis vaksin dari katalog.
 
 1. **Dashboard Statistik Aktual & Terpadu:**
    - Ringkasan langsung dari database: Total Hewan Aktif, Total Shelter, dan Jenis Vaksin Tersedia.
