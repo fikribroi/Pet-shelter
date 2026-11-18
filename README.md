@@ -6,8 +6,6 @@
 
 ### Proyek Tugas Besar Pemrograman Berorientasi Objek (PBO)
 
-**Program Studi Sistem Informasi — Fakultas Teknik — Universitas Bengkulu**  
-**Tahun Akademik 2024/2025**
 - **Tema 10:** Sistem Manajemen Data Hewan Shelter
 
 ---
